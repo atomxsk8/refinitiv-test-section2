@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  padding-top: 100px;
+}
+
+.col1 {
+  width: 200px;
+}
+.col2 {
+  flex: 1;
+}
+.col3 {
+  width: 300px;
+}
+

@@ -1,0 +1,30 @@
+.App {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#filter {
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
